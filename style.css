@@ -1,4 +1,10 @@
 *{
   font-family:"VT323",sans-serif;
   font-weight:lighter;
+
+}
+body{
+  padding-right:50%;
+  margin-left:5%;
+  margin-top:5%;
 }
