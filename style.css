@@ -8,3 +8,17 @@ body{
   margin-left:5%;
   margin-top:5%;
 }
+a{
+  color:blue;
+  text-decoration:none;
+}
+a:hover{
+  color:springgreen;
+}
+.code{
+  font-family:courier,"DotGothic16";
+  display:inline-block;
+  padding:1%;
+  background-color:#222222;
+  color:white;
+}
