@@ -1,6 +1,23 @@
 *{
   font-family: "Noto Sans JP" , sans-serif;
 }
+body{
+  display:flex;
+  overflow:hidden;
+}
+.main{
+  width:45vw;
+  height:95vw;
+}
+.sub{
+  width:45vw;
+  height:95vw;
+}
+.wake{
+  width:95%;
+  border:none;
+  border-left:1px solid black;
+}
 .post{
   border:1px solid gray;
   padding:1%;

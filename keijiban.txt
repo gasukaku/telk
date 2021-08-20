@@ -1,4 +1,0 @@
-<div class='post'><p>投稿者:</p>
-<div class='solid'></div>
-<p>      g</p>
-</div>
