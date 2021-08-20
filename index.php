@@ -4,18 +4,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <title>Telk</title>
+    <title>Telkチャット</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
     <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
   </head>
   <body>
-    <p>Telk chat</p>
+    <p>Telkチャット -フリーの掲示板-</p>
     <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
       名前 <input type="text" name="personal_name"><br><br>
       <p>投稿内容 </p>
       <textarea name="contents"></textarea><br><br>
-      <input type="submit" name="btn1" value="Send">
+      <input type="submit" name="btn1" value="投稿する">
     </form>
     <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){

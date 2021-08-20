@@ -27,7 +27,8 @@ input{
 }
 input[type="submit"]{
   background-color:whitesmoke;
+  padding:2%;
 }
 input[type="submit"]:hover{
-  background-color:gray;
+  background-color:gainsboro;
 }
