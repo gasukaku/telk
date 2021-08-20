@@ -12,4 +12,7 @@
 <div class='solid'></div>
 <p>>>>村人B<br />
 よう</p>
+</div><div class='post'><p>投稿者:管理人</p>
+<div class='solid'></div>
+<p>やあ</p>
 </div>

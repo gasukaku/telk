@@ -21,7 +21,10 @@
     </div>
     <div class="sub">
         <h1>コメント一覧</h1>
-      <div class="com">
+      <p>
+        新しいコメントは下に更新されます。
+      </p>
+      <div class="com" id="com">
       <?php
   if($_SERVER["REQUEST_METHOD"] == "POST"){
       writeData();
