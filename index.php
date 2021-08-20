@@ -1,23 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>JAOW</title>
-    <link rel="stylesheet" href="https://jaow.glitch.me/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <script src="https://jaow.glitch.me/script.js"></script>
-    <div class="hero">
-      <h1 class="center b">Simple</h1>
-    </div>
-    <div class="main">
-      <h2>ABOUT JAOW</h2>
-      <p>JAOW is very simple JavaScript library.</p>
-      <h3>How to use JAOW's scripts</h3>
-      <h2>ALL SCRIPTS</h2>
-    </div>
-  </body>
+
+<html>
+<head><title>Telk</title></head>
+<body>
+
+<p>Telk chat</p>
+
+<form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
+<input type="text" name="personal_name"><br><br>
+<textarea name="contents" rows="8" cols="40">
+</textarea><br><br>
+<input type="submit" name="btn1" value="send">
+</form>
+
+<?php
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    writeData();
+}
+
+readData();
+
+function readData(){
+    $keijban_file = 'keijiban.txt';
+
+    $fp = fopen($keijban_file, 'rb');
+
+    if ($fp){
+        if (flock($fp, LOCK_SH)){
+            while (!feof($fp)) {
+                $buffer = fgets($fp);
+                print($buffer);
+            }
+
+            flock($fp, LOCK_UN);
+        }else{
+            print('ファイルロックに失敗しました');
+        }
+    }
+
+    fclose($fp);
+}
+
+function writeData(){
+    $personal_name = $_POST['personal_name'];
+    $contents = $_POST['contents'];
+    $contents = nl2br($contents);
+
+    $data = "<hr>\r\n";
+    $data = $data."<p>投稿者:".$personal_name."</p>\r\n";
+    $data = $data."<p>内容:</p>\r\n";
+    $data = $data."<p>".$contents."</p>\r\n";
+
+    $keijban_file = 'keijiban.txt';
+
+    $fp = fopen($keijban_file, 'ab');
+
+    if ($fp){
+        if (flock($fp, LOCK_EX)){
+            if (fwrite($fp,  $data) === FALSE){
+                print('ファイル書き込みに失敗しました');
+            }
+
+            flock($fp, LOCK_UN);
+        }else{
+            print('ファイルロックに失敗しました');
+        }
+    }
+
+    fclose($fp);
+}
+
+?>
+</body>
 </html>
