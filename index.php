@@ -14,8 +14,7 @@
     <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
       名前 <input type="text" name="personal_name"><br><br>
       <p>投稿内容 </p>
-      <textarea name="contents" rows="8" cols="40">
-      </textarea><br><br>
+      <textarea name="contents"></textarea><br><br>
       <input type="submit" name="btn1" value="Send">
     </form>
     <?php
@@ -24,8 +23,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 readData();
 function readData(){
-    $keijban_file = 'keijiban.txt';
-    $fp = fopen($keijban_file, 'rb');
+    $cl_file = 'cl.txt';
+    $fp = fopen($cl_file, 'rb');
     if ($fp){
         if (flock($fp, LOCK_SH)){
             while (!feof($fp)) {
@@ -46,7 +45,7 @@ function writeData(){
     $data = $data."<div class='post'><p>投稿者:".$personal_name."</p>\r\n";
     $data = $data."<div class='solid'></div>\r\n";
     $data = $data."<p>".$contents."</p>\r\n</div>";
-    $keijban_file = 'keijiban.txt';
+    $keijban_file = 'cl.txt';
     $fp = fopen($keijban_file, 'ab');
     if ($fp){
         if (flock($fp, LOCK_EX)){
