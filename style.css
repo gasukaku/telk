@@ -1,58 +1,47 @@
 *{
-  font-family:"Ubuntu",sans-serif
+  font-family: "Noto Sans JP" , sans-serif;
+  font-weight: lighter;
 }
 body{
-  margin:5%;
-  user-select:none;
-  overflow-x:hidden;
+  margin: 5%;
+  user-select: none;
+  overflow-x: hidden;
 }
 *::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
 }
 *::-webkit-scrollbar-thumb {
-  background: linear-gradient(0deg,#43e2c6,#3183d0);
-  border-radius: 3px;
+  background: springgreen;
+  border-radius: 100px;
 }
 *::-webkit-scrollbar-track {
-  background:gray;
+  background: whitesmoke;
 }
-
- 
 a{
-  color:blue;
-  text-decoration:none;
+  color: blue;
+  text-decoration: none;
+  transition: 100ms;
 }
 a:hover{
-  color:springgreen;
+  animation: begin 0.3s;
+  color: springgreen;
 }
 .center{
-  text-align:center;
-  margin:0;
-}
-.h1{
-  font-weight:bolder;
-  font-size:500%;
-}
-.h2{
-  font-weight:bolder;
-  font-size:300%;
-}
-.h3{
-  font-weight:bolder;
-  font-size:200%;
+  text-align: center;
+  margin: 0;
 }
 .side{
-  border:none;
-  display:inline-block;
-  transition:100ms;
-  cursor:pointer;
+  border: none;
+  display: inline-block;
+  transition: 100ms;
+  cursor: pointer;
 }
 .side:hover{
-  animation:begin 0.3s;
-  color:springgreen;
+  animation: begin 0.3s;
+  color: springgreen;
 }
 @keyframes begin{
   50%{
-    transform:scale(120%);
+    transform: scale(120%);
   }
 }
