@@ -1,0 +1,6 @@
+<div class='post'><p>投稿者:管理人</p>
+<div class='solid'></div>
+<p>チャットの投稿をしよう！<br />
+※スマホ版は崩れる場合があります<br />
+</p>
+</div>
