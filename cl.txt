@@ -15,4 +15,7 @@
 </div><div class='post'><p>投稿者:管理人</p>
 <div class='solid'></div>
 <p>やあ</p>
+</div><div class='post'><p>投稿者:ahya</p>
+<div class='solid'></div>
+<p>ahya</p>
 </div>
