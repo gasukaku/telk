@@ -4,7 +4,20 @@
 body{
   margin:5%;
   user-select:none;
+  overflow-x:hidden;
 }
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg,#43e2c6,#3183d0);
+  border-radius: 3px;
+}
+*::-webkit-scrollbar-track {
+  background:gray;
+}
+
+ 
 a{
   color:blue;
   text-decoration:none;
@@ -16,17 +29,30 @@ a:hover{
   text-align:center;
   margin:0;
 }
-.bigger{
+.h1{
   font-weight:bolder;
   font-size:500%;
+}
+.h2{
+  font-weight:bolder;
+  font-size:300%;
+}
+.h3{
+  font-weight:bolder;
+  font-size:200%;
 }
 .side{
   border:none;
   display:inline-block;
   transition:100ms;
   cursor:pointer;
-  border-bottom:1px solid black;
 }
 .side:hover{
-  
+  animation:begin 0.3s;
+  color:springgreen;
+}
+@keyframes begin{
+  50%{
+    transform:scale(120%);
+  }
 }

@@ -10,13 +10,11 @@
   </head>
   <body>
     <script src="https://jaow.glitch.me/script.js"></script>
-    <h1 class="center bigger">WELCOME TO JAOW.</h1>
-    <h2 class="side">ABOUT JAOW</h2>
-    <p>JAOW is very simple JavaScript library.</p>
-    <p class="side">How to use JAOW's scripts</p>
-    <div class="main">
-    <h2 class="side">ALL SCRIPTS</h2>
-      <p>現在のスクリプト数：</p>
-    </div>
+    <p class="center h1">WELCOME TO JAOW.</p><br>
+    <p class="side h2">ABOUT JAOW</p><br>
+    <p>JAOW is very simple JavaScript library.</p><br>
+    <p class="side h3">How to use JAOW's scripts</p><br>
+    <p class="side h2">ALL SCRIPTS</p><br>
+    <p>現在のスクリプト数：</p><br>
   </body>
 </html>
