@@ -60,5 +60,7 @@ function writeData(){
     fclose($fp);
 }
     ?>
+    <div class="solid"></div>
+    <p>容量の問題もあるので、ここに書かれたコメントは予告なく削除される場合もあります</p>
   </body>
 </html>

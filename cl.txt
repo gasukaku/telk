@@ -1,7 +1,0 @@
-<div class='post'><p>投稿者:</p>
-<div class='solid'></div>
-<p>投稿テスト</p>
-</div><div class='post'><p>投稿者:Ahaha</p>
-<div class='solid'></div>
-<p>Test</p>
-</div>
