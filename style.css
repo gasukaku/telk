@@ -1,8 +1,9 @@
 *{
-  font-family:"Ubuntu",sans-serif;
+  font-family:"Ubuntu",sans-serif
 }
 body{
   margin:5%;
+  user-select:none;
 }
 a{
   color:blue;
@@ -20,6 +21,7 @@ a:hover{
   font-size:500%;
 }
 .side{
+  border:none;
   background-color:whitesmoke;
   border-radius:10px;
   padding:1%;
@@ -29,4 +31,7 @@ a:hover{
 }
 .side:hover{
   font-size:180%;
+}
+.side:active{
+  border:5px solid black;
 }
