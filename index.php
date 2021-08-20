@@ -4,17 +4,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <title>Telkチャット</title>
+    <title>Telkフォーラム</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
     <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
   </head>
   <body>
-    <p>Telkチャット -フリーの掲示板-</p>
+    <p>Telkフォーラム</p>
     <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-      名前 <input type="text" name="personal_name"><br><br>
+      名前 <input type="text" name="personal_name" required><br><br>
       <p>投稿内容 </p>
-      <textarea name="contents"></textarea><br><br>
+      <textarea name="contents" required></textarea><br><br>
       <input type="submit" name="btn1" value="投稿する">
     </form>
     <?php
@@ -62,5 +62,6 @@ function writeData(){
     ?>
     <div class="solid"></div>
     <p>容量の問題もあるので、ここに書かれたコメントは予告なく削除される場合もあります</p>
+    <p>©Copyright BellMe 2020-2021 All Right Reserved.</p>
   </body>
 </html>
