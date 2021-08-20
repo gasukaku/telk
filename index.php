@@ -43,11 +43,9 @@ function writeData(){
     $personal_name = $_POST['personal_name'];
     $contents = $_POST['contents'];
     $contents = nl2br($contents);
-    $data = $data."<div class='post'>";
-    $data = $data."<p>投稿者:".$personal_name."</p>\r\n";
-    $data = $data."<p>内容:</p>\r\n";
-    $data = $data."<p>".$contents."</p>\r\n";
-    &
+    $data = $data."<div class='post'><p>投稿者:".$personal_name."</p>\r\n";
+    $data = $data."<div class='solid'></div>\r\n";
+    $data = $data."<p>".$contents."</p>\r\n</div>";
     $keijban_file = 'keijiban.txt';
     $fp = fopen($keijban_file, 'ab');
     if ($fp){

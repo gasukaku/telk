@@ -1,0 +1,13 @@
+<div class='post'><p>投稿者:</p>
+<p>内容:</p>
+<p>      Hello</p>
+</div><div class='post'><p>投稿者:</p>
+<p>内容:</p>
+<p>      Hello</p>
+</div><div class='post'><p>投稿者:Bellomaker</p>
+<p>内容:</p>
+<p>      </p>
+</div><div class='post'><p>投稿者:</p>
+<div class='solid'></div>
+<p>      Wel</p>
+</div>
