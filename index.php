@@ -12,18 +12,11 @@
     <script src="https://jaow.glitch.me/script.js"></script>
     <h1 class="center bigger">WELCOME TO JAOW.</h1>
     <h2 class="side">ABOUT JAOW</h2>
-    <p>
-    JAOWはとてもシンプルなJavaScriptライブラリです。<p></p>
-    JAOWの文をインストールする場合は、txtファイルですので、拡張子を.jsにしてご使用ください。<p></p>
-    </p>
+    <p>JAOW is very simple JavaScript library.</p>
+    <p class="side">How to use JAOW's scripts</p>
     <div class="main">
-    <h2 class="side">ALL</h2>
-      <p>
-        簡略化：
-        <p>roop文：<a href="https://jaow.glitch.me/funcs/js/ss/roop/script.js">リンクに移動</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/package.txt" download>インストール</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/index.php">説明</a></p>
-      </p>
+    <h2 class="side">ALL SCRIPTS</h2>
+      <p>現在のスクリプト数：</p>
     </div>
-    <p>アクセスカウンター：</p>
-    <a href="https://www.free-counter.jp/"><img src="https://www.f-counter.net/j/46/1629098943/" alt="アクセスカウンター"></a>
   </body>
 </html>

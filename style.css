@@ -22,16 +22,11 @@ a:hover{
 }
 .side{
   border:none;
-  background-color:whitesmoke;
-  border-radius:10px;
-  padding:1%;
   display:inline-block;
   transition:100ms;
   cursor:pointer;
+  border-bottom:1px solid black;
 }
 .side:hover{
-  font-size:180%;
-}
-.side:active{
-  background-color:gray;
+  
 }
