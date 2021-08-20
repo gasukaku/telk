@@ -20,7 +20,7 @@
     <h2 class="side">ALL</h2>
       <p>
         簡略化：
-        <p>roop文：<a href="https://jaow.glitch.me/funcs/js/ss/roop/script.js">リンクに移動</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/package.txt" download>インストール</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/index.html">説明</a></p>
+        <p>roop文：<a href="https://jaow.glitch.me/funcs/js/ss/roop/script.js">リンクに移動</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/package.txt" download>インストール</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/index.php">説明</a></p>
       </p>
     </div>
     <p>アクセスカウンター：</p>
