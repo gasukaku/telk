@@ -19,8 +19,9 @@
         <input type="submit" name="btn1" value="投稿する">
       </form>
     </div>
-    <div class="wake"></div>
     <div class="sub">
+        <h1>コメント一覧</h1>
+      <div class="com">
       <?php
   if($_SERVER["REQUEST_METHOD"] == "POST"){
       writeData();
@@ -64,6 +65,7 @@
       fclose($fp);
   }
       ?>
+    </div>
       <div class="solid"></div>
       <p>容量の問題もあるので、ここに書かれたコメントは予告なく削除される場合もあります</p>
       <p>©Copyright BellMe 2020-2021 All Right Reserved.</p>
