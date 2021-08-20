@@ -10,7 +10,7 @@
   </head>
   <body>
     <script src="https://jaow.glitch.me/script.js"></script>
-    <h1>JAOW言語</h1>
+    <h1>WEL COME TO JAOW.</h1>
     <h2>JAOWについて</h2>
     <p>
     JAOWはとてもシンプルなJavaScriptライブラリです。<p></p>
@@ -21,7 +21,6 @@
       <p>
         簡略化：
         <p>roop文：<a href="https://jaow.glitch.me/funcs/js/ss/roop/script.js">リンクに移動</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/package.txt" download>インストール</a>　<a href="https://jaow.glitch.me/funcs/js/ss/roop/index.html">説明</a></p>
-        <p>list文：<a href="https://jaow.glitch.me/funcs/js/ss/list/script.js">リンクに移動</a>　<a href="https://jaow.glitch.me/funcs/js/ss/list/package.txt" download>インストール</a>　<a href="https://jaow.glitch.me/funcs/js/ss/list/index.html">説明</a></p>
       </p>
     </div>
     <p>アクセスカウンター：</p>
