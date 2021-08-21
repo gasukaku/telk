@@ -46,11 +46,11 @@ input {
   resize: none;
   outline: none;
 }
-input[type="button"] {
+input[type="submit"] {
   background-color: whitesmoke;
   padding: 2%;
 }
-input[type="button"]:hover {
+input[type="submit"]:hover {
   background-color: gainsboro;
 }
 .section {

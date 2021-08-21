@@ -50,7 +50,7 @@
       $personal_name = $_POST['personal_name'];
       $contents = $_POST['contents'];
       $contents = nl2br($contents);
-      $data = $data."<div class='post'><p>投稿者:".$personal_name."</p>\r\n";
+      $data = $data."<div class='post'><code>投稿者:".$personal_name."</code>\r\n";
       $data = $data."<div class='solid'></div>\r\n";
       $data = $data."<p>".$contents."</p>\r\n</div>";
       $cl_file = 'cl.txt';
