@@ -21,4 +21,10 @@
 </div><div class='post'><p>投稿者:Ahaha</p>
 <div class='solid'></div>
 <p>Test</p>
+</div><div class='post'><p>投稿者:アタッカー</p>
+<div class='solid'></div>
+<p>やあ</p>
+</div><div class='post'><p>投稿者:Kindle</p>
+<div class='solid'></div>
+<p>は?</p>
 </div>
