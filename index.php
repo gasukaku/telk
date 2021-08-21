@@ -53,8 +53,8 @@
       $data = $data."<div class='post'><p>投稿者:".$personal_name."</p>\r\n";
       $data = $data."<div class='solid'></div>\r\n";
       $data = $data."<p>".$contents."</p>\r\n</div>";
-      $keijban_file = 'cl.txt';
-      $fp = fopen($keijban_file, 'ab');
+      $cl_file = 'cl.txt';
+      $fp = fopen($cl_file, 'ab');
       if ($fp){
           if (flock($fp, LOCK_EX)){
               if (fwrite($fp,  $data) === FALSE){
