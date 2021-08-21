@@ -20,7 +20,7 @@
         The moment you post, you agree to the full text of these Terms of Use and this operation is irrevocable.
       </p>
       <h2>About posted content</h2>
-      <h3>1, let's be healthy.</h3>
+      <h3>1, Make sure your content is healthy.</h3>
       <p>
         Make comments that will not hurt anyone and will be fun.
       </p>

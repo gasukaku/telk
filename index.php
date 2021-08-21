@@ -16,8 +16,8 @@
       <div style="margin:10%;"></div>
       <h1>All Servers</h1>
       <ul>
-        <li><a href="https://telk.glitch.me/en/">English Server</a></li>
-        <li><a href="">Japanese Server(Development now)</a></li>
+        <li><a href="https://telk.glitch.me/en/" class="logo"><span style="font-size:200%;">Telk</span> English</a></li>
+        <li><a href="https://telk.glitch.me/jp/" class="logo"><span style="font-size:200%;">Telk</span> 日本語</a></li>
       </ul>
     </div>
   </body>

@@ -6,6 +6,10 @@ body {
   display: flex;
   overflow: hidden;
 }
+li{
+  list-style:none;
+  margin-bottom:5%;
+}
 .main {
   width: 45%;
   height: 95vh;
@@ -86,4 +90,8 @@ a:hover {
 }
 *::-webkit-scrollbar-track {
   background: transparent;
+}
+.logo{
+  text-decoration:none;
+  color:black;
 }
