@@ -11,7 +11,6 @@
   </head>
   <body>
     <div class="main">
-      <p>Telkフォーラム</p>
       <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
         名前 <input type="text" name="personal_name" id="name" required><br><br>
         <p>投稿内容 </p>
