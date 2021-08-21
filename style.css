@@ -4,7 +4,6 @@
 body {
   display: flex;
   overflow: hidden;
-  background-color:crimson;
 }
 .main {
   width: 45%;
@@ -18,7 +17,7 @@ body {
 }
 .com {
   width: 100%;
-  height: 60%;
+  height: 80%;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -71,13 +70,14 @@ a {
   transition: 100ms;
 }
 a:hover {
-  color: crimson;
+  color: springgreen;
 }
 *::-webkit-scrollbar {
-  width: 15px;
+  width: 5px;
+  height:5px;
 }
 *::-webkit-scrollbar-thumb {
-  background: crimson;
+  background: black;
   border-radius: 100px;
 }
 *::-webkit-scrollbar-track {

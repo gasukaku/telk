@@ -19,10 +19,6 @@
       </form>
     </div>
     <div class="sub">
-        <h1>コメント一覧</h1>
-      <p>
-        新しいコメントは下に更新されます。
-      </p>
       <div class="com" id="com">
       <?php
   if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -48,10 +44,9 @@
   function writeData(){
       $personal_name = $_POST['personal_name'];
       $contents = $_POST['contents'];
-      $contents = nl2br($contents);
-      $data = $data."<div class='post'><xmp>投稿者:".$personal_name."</xmp>\r\n";
-      $data = $data."<div class='solid'></div>\r\n";
-      $data = $data."<p><xmp>".$contents."</xmp></p>\r\n</div>";
+      $data = $data."<div class='post'><xmp>@".$personal_name."</xmp>";
+      $data = $data."<div class='solid'></div>";
+      $data = $data."<p><xmp>".$contents."</xmp></p></div>";
       $cl_file = 'cl.txt';
       $fp = fopen($cl_file, 'ab');
       if ($fp){
