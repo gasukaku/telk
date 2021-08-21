@@ -16,7 +16,8 @@
         名前 <input type="text" name="personal_name" required><br><br>
         <p>投稿内容 </p>
         <textarea name="contents" required></textarea><br><br>
-        <input type="submit" name="btn1" value="投稿する">
+        <input type="button" value="投稿する">
+        <input type="submit" name="btn1">
       </form>
     </div>
     <div class="sub">
