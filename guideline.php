@@ -1,9 +1,9 @@
 
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Urbanist&display=swap" rel="stylesheet">
     <title>利用規約</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
@@ -11,36 +11,35 @@
   </head>
   <body class="body">
     <div class="section">
-      <h1>Telkフォーラムの利用規約</h1>
-      <h2>利用規約について</h2>
+      <h1>Telk Forum Terms of Service</h1>
+      <h2>About terms of use</h2>
       <p>
-        本利用規約は、予告なく編集する場合があります。
+        These Terms of Use may be edited without notice.
       </p>
-      <h2>同意について</h2>
+      <h2>About consent</h2>
       <p>
-        投稿を行った瞬間に、この利用規約全文に同意したこととなり、
-        この操作は、取り消すことはできません。
+        The moment you post, you agree to the full text of these Terms of Use and this operation is irrevocable.
       </p>
-      <h2>投稿内容について</h2>
-      <h3>1,健全にしましょう。</h3>
+      <h2>About posted content</h2>
+      <h3>1, let's be healthy.</h3>
       <p>
-        誰が見ても傷つかず、楽しくなるようなコメントをしましょう。
+        Make comments that will not hurt anyone and will be fun.
       </p>
-      <h3>2,著作権や肖像権を守りましょう。</h3>
+      <h3>2, Let's protect the copyright and portrait right.</h3>
       <p>
-        世の中には様々な権利があります。それをきちんと守り、素晴らしいフォーラムにしましょう。
+        There are various rights in the world. Protect it and make it a great forum.
       </p>
-      <h3>投稿は予告なく削除される場合があります。</h3>
+      <h3>3, Posts may be deleted without notice.</h3>
       <p>
-        本サイトはGlitchでホスティングされています。容量が制限されますので、不定期に削除させていただきます。
+        This site is hosted on Glitch. Since the capacity is limited, we will delete it irregularly.
       </p>
-      <h3>3,投稿の責任について</h3>
+      <h3>4, Responsibility for posting</h3>
       <p>
-        私は、本サイトの投稿内容に関するいかなる責任も負いません。自己責任です。
+        I do not take any responsibility for the content posted on this site. It is your own responsibility.
       </p>
-      <h2>本サービスについて</h2>
+      <h2>About this service</h2>
       <p>
-        本サービスは予告なく停止される場合があります。
+        This service may be stopped without notice.
       </p>
       <a href="https://telk.glitch.me/">Go back</a>
     </div>

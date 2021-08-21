@@ -1,10 +1,10 @@
 
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <title>Telkフォーラム</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Urbanist&display=swap" rel="stylesheet">
+    <title>Telk forum</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
     <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
@@ -12,10 +12,10 @@
   <body>
     <div class="main">
       <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-        名前 <input type="text" name="personal_name" id="name" required><br><br>
-        <p>投稿内容 </p>
+        name <input type="text" name="personal_name" id="name" required><br><br>
+        <p>body </p>
         <textarea name="contents" id="form" required></textarea><br><br>
-        <input type="submit" value="投稿する">
+        <input type="submit" value="Send post">
       </form>
     </div>
     <div class="sub">
@@ -36,7 +36,7 @@
               }
               flock($fp, LOCK_UN);
           }else{
-              print('ファイルロックに失敗しました');
+              print('Fail File lock!');
           }
       }
       fclose($fp);
@@ -52,11 +52,11 @@
       if ($fp){
           if (flock($fp, LOCK_EX)){
               if (fwrite($fp,  $data) === FALSE){
-                  print('ファイル書き込みに失敗しました');
+                  print('Fail File write!');
               }
               flock($fp, LOCK_UN);
           }else{
-              print('ファイルロックに失敗しました');
+              print('Fail File lock!');
           }
       }
       fclose($fp);
@@ -64,7 +64,7 @@
       ?>
     </div>
       <div class="solid"></div>
-      <p>投稿すれば、自動的に<a href="https://telk.glitch.me/guideline.php">利用規約</a>に同意したことになります。</p>
+      <p>By posting, you agree to the <a href="https://telk.glitch.me/guideline.php">terms of use</a>.</p>
       <p>©Copyright BellMe 2020-2021 All Right Reserved.</p>
     </div>
   </body>
