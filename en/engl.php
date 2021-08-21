@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Urbanist&display=swap" rel="stylesheet">
-    <title>利用規約</title>
+    <title>Terms of use</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
     <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
@@ -41,7 +41,7 @@
       <p>
         This service may be stopped without notice.
       </p>
-      <a href="https://telk.glitch.me/">Go back</a>
+      <a href="https://telk.glitch.me/en/">Go back</a>
     </div>
   </body>
 </html>
