@@ -19,6 +19,19 @@
         <li><a href="https://telk.glitch.me/en/" class="logo"><span style="font-size:200%;">Telk</span> English</a></li>
         <li><a href="https://telk.glitch.me/jp/" class="logo"><span style="font-size:200%;">Telk</span> 日本語</a></li>
       </ul>
+      <div style="margin:10%;"></div>
+      <h1>What is Telk?</h1>
+      <div class="section">
+        Telk is a very simple community. Registration is not required. It's completely free!
+      </div>
+      <h1>Telk's source codes</h1>
+      <p>※For developers</p>
+      <div class="section">
+        This project uses "Glitch".
+        This is Open Source.
+        The source code is <a href="https://glitch.com/edit/#!/telk">here</a>.
+      </div>
+      <div style="margin:10%;"></div>
     </div>
   </body>
 </html>
