@@ -14,7 +14,7 @@
         <p>ニックネーム</p> 
         <input type="text" name="personal_name" id="name" class="name" required><br><br>
         <p>投稿内容 </p>
-        <textarea name="contents" id="form" required></textarea><br><br>
+        <textarea name="contents" id="form" pellcheck="false" required></textarea><br><br>
         <input type="submit" value="投稿する">
       </form>
     </div>

@@ -14,7 +14,7 @@
         <p>Nickname</p> 
         <input type="text" name="personal_name" id="name" class="name" required><br><br>
         <p>Text</p>
-        <textarea name="contents" id="form" required></textarea><br><br>
+        <textarea name="contents" id="form" spellcheck="false" required></textarea><br><br>
         <input type="submit" value="Send post">
       </form>
     </div>
