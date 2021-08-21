@@ -18,6 +18,7 @@
       <ul>
         <li><a href="https://telk.glitch.me/en/" class="logo"><span style="font-size:200%;">Telk</span> English</a></li>
         <li><a href="https://telk.glitch.me/jp/" class="logo"><span style="font-size:200%;">Telk</span> 日本語</a></li>
+        <li><a href="https://telk.glitch.me/ch/" class="logo"><span style="font-size:200%;">Telk</span> 中文</a></li>
       </ul>
       <div style="margin:10%;"></div>
       <h1>What is Telk?</h1>
