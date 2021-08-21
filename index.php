@@ -33,6 +33,9 @@
         The source code is <a href="https://glitch.com/edit/#!/telk">here</a>.
       </div>
       <div style="margin:10%;"></div>
+      <h2>
+        TELK ON WORLD. STYLE IN TELK.
+      </h2>
     </div>
   </body>
 </html>

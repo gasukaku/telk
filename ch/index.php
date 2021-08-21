@@ -14,7 +14,7 @@
         <p>昵称</p> 
         <input type="text" name="personal_name" id="name" class="name" required><br><br>
         <p>文字</p>
-        <textarea name="contents" id="form" spellcheck="false" required></textarea><br><br>
+        <textarea name="contents" id="form" wrap="off" spellcheck="false" required></textarea><br><br>
         <input type="submit" value="发送帖子">
       </form>
     </div>
