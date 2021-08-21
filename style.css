@@ -95,3 +95,11 @@ a:hover {
   text-decoration:none;
   color:black;
 }
+.lg:hover{
+  animation:click .3s;
+}
+@keyframes click{
+  50%{
+    font-size:300%;
+  }
+}
