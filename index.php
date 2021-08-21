@@ -50,9 +50,9 @@
       $personal_name = $_POST['personal_name'];
       $contents = $_POST['contents'];
       $contents = nl2br($contents);
-      $data = $data."<div class='post'><code>投稿者:".$personal_name."</code>\r\n";
+      $data = $data."<div class='post'><xmp>投稿者:".$personal_name."</xmp>\r\n";
       $data = $data."<div class='solid'></div>\r\n";
-      $data = $data."<p>".$contents."</p>\r\n</div>";
+      $data = $data."<p><xmp>".$contents."</xmp></p>\r\n</div>";
       $cl_file = 'cl.txt';
       $fp = fopen($cl_file, 'ab');
       if ($fp){
