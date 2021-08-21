@@ -1,5 +1,5 @@
 
-<html>
+<html lang="en">
   <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,7 +7,6 @@
     <title>Terms of use</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
-    <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
   </head>
   <body class="body">
     <div class="section">

@@ -4,18 +4,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Urbanist&display=swap" rel="stylesheet">
-    <title>Telk forum</title>
+    <title>Telkフォーラム</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
   </head>
   <body>
     <div class="main">
       <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-        <p>Nickname</p> 
+        <p>ニックネーム</p> 
         <input type="text" name="personal_name" id="name" class="name" required><br><br>
-        <p>Post Body </p>
+        <p>投稿内容 </p>
         <textarea name="contents" id="form" required></textarea><br><br>
-        <input type="submit" value="Send post">
+        <input type="submit" value="投稿する">
       </form>
     </div>
     <div class="sub">
@@ -26,7 +26,7 @@
   }
   readData();
   function readData(){
-      $cl_file = 'enpl.txt';
+      $cl_file = 'jppl.txt';
       $fp = fopen($cl_file, 'rb');
       if ($fp){
           if (flock($fp, LOCK_SH)){
@@ -47,7 +47,7 @@
       $data = $data."<div class='post'><xmp>@".$personal_name."</xmp>";
       $data = $data."<div class='solid'></div>";
       $data = $data."<p><xmp>".$contents."</xmp></p></div>";
-      $cl_file = 'enpl.txt';
+      $cl_file = 'jppl.txt';
       $fp = fopen($cl_file, 'ab');
       if ($fp){
           if (flock($fp, LOCK_EX)){
@@ -64,7 +64,7 @@
       ?>
     </div>
       <div class="solid"></div>
-      <p>By posting, you agree to the <a href="https://telk.glitch.me/en/engl.php">terms of use</a>.</p>
+      <p>投稿したと同時に<a href="https://telk.glitch.me/jp/jpgl.php">利用規約</a>に同意したことになります。</p>
       <p>©Copyright BellMe 2020-2021 All Right Reserved.</p>
     </div>
   </body>
