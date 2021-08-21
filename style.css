@@ -56,3 +56,15 @@ input[type="submit"]:hover{
   margin:5%;
   padding-right:50%;
 }
+.body{
+  overflow-y:scroll;
+}
+a{
+  color:blue;
+  text-decoration:none;
+  font-weight:bolder;
+  transition:100ms;
+}
+a:hover{
+  color:crimson;
+}

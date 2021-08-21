@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
     <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
   </head>
-  <body>
+  <body class="body">
     <div class="section">
       <h1>Telkフォーラムの利用規約</h1>
       <h2>利用規約について</h2>
@@ -34,14 +34,15 @@
       <p>
         本サイトはGlitchでホスティングされています。容量が制限されますので、不定期に削除させていただきます。
       </p>
-      <h3>投稿の責任について</h3>
+      <h3>3,投稿の責任について</h3>
       <p>
-        私は、本サイトに投稿された
+        私は、本サイトの投稿内容に関するいかなる責任も負いません。自己責任です。
       </p>
-      <h2></h2>
+      <h2>本サービスについて</h2>
       <p>
-        
+        本サービスは予告なく停止される場合があります。
       </p>
+      <a href="https://telk.glitch.me/">Go back</a>
     </div>
   </body>
 </html>
