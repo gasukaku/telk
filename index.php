@@ -70,7 +70,7 @@
       ?>
     </div>
       <div class="solid"></div>
-      <p>容量の問題もあるので、ここに書かれたコメントは予告なく削除される場合もあります</p>
+      <p>投稿すれば、自動的に<a href="https://telk.glitch.me/guideline.php">利用規約</a>に同意したことになります。</p>
       <p>©Copyright BellMe 2020-2021 All Right Reserved.</p>
     </div>
   </body>
