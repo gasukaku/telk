@@ -53,9 +53,6 @@ input[type="button"] {
 input[type="button"]:hover {
   background-color: gainsboro;
 }
-input[type="submit"]{
-  display:none;
-}
 .section {
   margin: 5%;
   padding-right: 50%;

@@ -13,11 +13,10 @@
     <div class="main">
       <p>Telkフォーラム</p>
       <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-        名前 <input type="text" name="personal_name" required><br><br>
+        名前 <input type="text" name="personal_name" id="name" required><br><br>
         <p>投稿内容 </p>
-        <textarea name="contents" required></textarea><br><br>
-        <input type="button" value="投稿する">
-        <input type="submit" name="btn1">
+        <textarea name="contents" id="form" required></textarea><br><br>
+        <input type="submit" value="投稿する">
       </form>
     </div>
     <div class="sub">
