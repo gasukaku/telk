@@ -27,6 +27,8 @@ function readData(){
             }
 
             flock($fp, LOCK_UN);
+        }else{
+            print('ファイルロックに失敗しました');
         }
     }
 
@@ -46,9 +48,16 @@ function writeData(){
 
     if ($fp){
         if (flock($fp, LOCK_EX)){
+            if (fwrite($fp,  $data) === FALSE){
+                print('ファイル書き込みに失敗しました');
+            }
+
             flock($fp, LOCK_UN);
+        }else{
+            print('ファイルロックに失敗しました');
         }
     }
+
     fclose($fp);
 }
 
