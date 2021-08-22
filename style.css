@@ -70,7 +70,8 @@ input[type="submit"]:hover {
 }
 .section {
   margin: 5%;
-  padding-right: 50%;
+  padding-right: 10%;
+  padding-left:5%;
 }
 .body {
   overflow-y: scroll;

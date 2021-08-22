@@ -10,24 +10,22 @@
     <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
   </head>
   <body class="body">
-    <div>
+    <div class="section">
       <h1 style="font-size:200%;">Telkフォーラム</h1>
       <h3>議論から雑談まで</h3>
       <div style="margin:10%;"></div>
       <ul>
-        <li><a href="https://telk.glitch.me/jp/" class="logo"><span style="font-size:200%;">Telk</span> メイン</a></li>
+        <li><a href="https://telk.glitch.me/" class="logo"><span style="font-size:200%;">Telk</span> 検索（開発中）</a></li>
       </ul>
       <div style="margin:10%;"></div>
       <h1>Telkとは？</h1>
-      <div class="section">
-        Telkは
-      </div>
-      <h1>Telk's source codes</h1>
-      <div class="section">
-        This project uses "Glitch".
-        This is Open Source.
-        The source code is <a href="https://glitch.com/edit/#!/telk">here</a>.
-      </div>
+        <p>
+          Telkは真面目な議論からほのぼのした雑談までできるフォーラムです。
+        </p>
+      <h1>Telkのソースコード</h1>
+        Telkのソースコードは基本的にオープンソースです。
+        ご自由にお使いください。
+        ソースコードは<a href="https://glitch.com/edit/#!/telk">こちら</a>。
       <div style="margin:10%;"></div>
     </div>
   </body>
