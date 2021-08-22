@@ -1,3 +1,19 @@
 <div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>セミコロン通信へようこそ;
 ここでは下にコメントが更新されます;
-なりすまし禁止！文末にはセミコロンを付けること！();</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>わぁ初めて見たこんなサイト</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>うれピィ();</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>文末にはセミコロン（;）を、、ね？();</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>、、おお！？分かった;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>これ僕が作ったのだよPHPで;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>なんかよくわからんけどすごいね;</xmp></p></div>
+なりすまし禁止！文末にはセミコロンを付けること！();</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>わぁ初めて見たこんなサイト</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>うれピィ();</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>文末にはセミコロン（;）を、、ね？();</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>、、おお！？分かった;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>これ僕が作ったのだよPHPで;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>なんかよくわからんけどすごいね;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>仕組みで言うと、;
+
+「書き込み側」;
+名前・投稿を入力させる;
+　　　　↓;
+投稿ボタンを押すまで待つ;
+　　　　↓;
+PHPにてファイルに名前・投稿を書き込ませる;
+「読み込み側」;
+PHPにて名前・投稿を読み込む;
+　　　　↓;
+HTMLにして表示する;
+仕組みにすると意外と簡単だよ;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>お、、おう？簡単なんだな？
+それって俺っちでもできる？</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>うん！頑張れば（）;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>頑張れば、、か。がんばる！;
+「頑張りモード突入」
+まずこのサイトはホスティングサービスを利用していますね。、、、、それだけ;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>よくわかったね！？
+Glitchというものを使用;</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>よくわかったね！？</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>2chより使いやすい(((((</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:Bellomaker</xmp></p><p class='postbody'><xmp>荒矢打(ﾟ∀ﾟ);</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:B村人A</xmp></p><p class='postbody'><xmp>ちょｗまｗ</xmp></p></div>
