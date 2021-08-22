@@ -7,7 +7,7 @@
   height: 7px;
 }
 *::-webkit-scrollbar-thumb {
-  background: black;
+  background:rgba(131,58,180,1);
   border-radius: 3px;
 }
 *::-webkit-scrollbar-track {
@@ -16,11 +16,11 @@
 body{
   text-align:center;
   overflow:hidden;
+  background-color:whitesmoke;
 }
 form{
-  margin-top:5%;
   width:100%;
-  height:30vh;
+  margin-top:5%;
 }
 textarea{
   resize:none;
@@ -45,18 +45,22 @@ input[type="submit"]:hover{
   background-color:gainsboro;
 }
 .posts{
-  width:100%;
-  height:60vh;
+  margin:0 auto;
+  text-align:center;
+  width:50%;
+  height:55vh;
   overflow:hidden;
   overflow-y:scroll;
+  background-color:white;
 }
 .post{
   display:inline-block;
   text-align:left;
   padding-left:1%;
-  width:50%;
+  width:90%;
   border:1px solid gray;
-  scroll-x:auto;
+  overflow-x:auto;
+  margin:1%;
 }
 .postname{}
 .postbody{
