@@ -39,8 +39,8 @@ function writeData(){
     $personal_name = $_POST['personal_name'];
     $contents = $_POST['contents'];
 
-    $data = $data."<div class='post'><p class='postname'>投稿者:".$personal_name."</p>";
-    $data = $data."<p class='postbody'>".$contents."</p></div>";
+    $data = $data."<div class='post'><p class='postname'><xmp>投稿者:".$personal_name."</xmp></p>";
+    $data = $data."<p class='postbody'><xmp>".$contents."</xmp></p></div>";
 
     $log_file = 'log.txt';
 
@@ -64,8 +64,8 @@ function writeData(){
 ?>
     </div>
     <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-      <input type="text" name="personal_name" placeholder="ニックネームを入力"><br><br>
-      <textarea name="contents" wrap="off" spellcheck="false" placeholder="投稿内容を入力"></textarea><br><br>
+      <input type="text" name="personal_name" placeholder="ニックネームを入力" required><br><br>
+      <textarea name="contents" wrap="off" spellcheck="false" placeholder="投稿内容を入力" required></textarea><br><br>
       <input type="submit" value="投稿する">
     </form>
   </body>
