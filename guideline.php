@@ -1,73 +1,24 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Telk platform</title>
+    <title>Telk 利用規約</title>
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
   </head>
-  <body>
-    <div class="posts">
-<?php
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    writeData();
-}
-
-readData();
-
-function readData(){
-    $log_file = 'log.txt';
-
-    $fp = fopen($log_file, 'rb');
-
-    if ($fp){
-        if (flock($fp, LOCK_SH)){
-            while (!feof($fp)) {
-                $buffer = fgets($fp);
-                print($buffer);
-            }
-
-            flock($fp, LOCK_UN);
-        }else{
-            print('ファイルロックに失敗しました');
-        }
-    }
-
-    fclose($fp);
-}
-
-function writeData(){
-    $personal_name = $_POST['personal_name'];
-    $contents = $_POST['contents'];
-
-    $data = $data."<div class='post'><p class='postname'><xmp>投稿者:".$personal_name."</xmp></p>";
-    $data = $data."<p class='postbody'><xmp>".$contents."</xmp></p></div>";
-
-    $log_file = 'log.txt';
-
-    $fp = fopen($log_file, 'ab');
-
-    if ($fp){
-        if (flock($fp, LOCK_EX)){
-            if (fwrite($fp,  $data) === FALSE){
-                print('ファイル書き込みに失敗しました');
-            }
-
-            flock($fp, LOCK_UN);
-        }else{
-            print('ファイルロックに失敗しました');
-        }
-    }
-
-    fclose($fp);
-}
-
-?>
-    </div>
-    <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-      <input type="text" spellcheck="false" name="personal_name" placeholder="ニックネームを入力" required><br><br>
-      <textarea name="contents" wrap="off" spellcheck="false" placeholder="投稿内容を入力" required></textarea><br><br>
-      <input type="submit" value="利用規約に同意して投稿する"> <a href="https://telk.glitch.me/guideline.php">利用規約の確認</a>
-    </form>
+  <body id="cont">
+    <h1>利用規約</h1>
+    <p style="color:red;">
+      ※本利用規約は投稿したと同時に同意したこととなり、
+      投稿内容に適用されるものです。
+    </p>
+    <h2>第1条(規約について)</h2>
+    <p>
+      1,本規約は、Telkに適用されるものです。<br>
+      2,Telkを利用する全てのユーザーは、この規約を守る必要があります。<br>
+    </p>
+    <h2>第2条(投稿内容について)</h2>
+    <p>
+      Telkで投稿する場合は、以下の内容を厳守する必要があり、守らない場合は相応の罰則があたえ
+    </p>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
 </html>

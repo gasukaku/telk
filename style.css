@@ -70,3 +70,9 @@ input[type="submit"]:hover,a:hover{
 .postbody{
   border-top:1px solid gray;
 }
+#cont{
+  text-align:left;
+  padding:3%;
+  background-color:white;
+  padding-right:30%;
+}
