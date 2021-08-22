@@ -4,4 +4,49 @@
 }
 body{
   text-align:center;
+  overflow:hidden;
+}
+form{
+  width:100%;
+  height:30vh;
+}
+textarea{
+  resize:none;
+  width:50%;
+  height:20vh;
+  border:1px solid gray;
+  outline:none;
+}
+input[type="text"]{
+  resize:none;
+  width:50%;
+  border:1px solid gray;
+  outline:none;
+}
+input[type="submit"]{
+  resize:none;
+  border:1px solid gray;
+  background-color:whitesmoke;
+  outline:none;
+}
+input[type="submit"]:hover{
+  background-color:gainsboro;
+}
+.posts{
+  text-align:center;
+  width:100%;
+  height:60vh;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+.post{
+  width:50%;
+  border:1px solid gray;
+  scroll-x:auto;
+}
+.postname{
+  border-bottom:1px solid gray;
+}
+.postbody{
+  
 }
