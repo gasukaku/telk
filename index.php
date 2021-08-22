@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>掲示板</title>
+    <title>セミコロン通信</title>
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
   </head>
   <body>
