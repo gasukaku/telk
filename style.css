@@ -35,13 +35,17 @@ input[type="text"]{
   border:1px solid gray;
   outline:none;
 }
-input[type="submit"]{
+input[type="submit"],a{
   resize:none;
   border:1px solid gray;
   background-color:whitesmoke;
   outline:none;
+  text-decoration:none;
+  color:black;
+  font-size:100%;
+  padding:0.2%;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover,a:hover{
   background-color:gainsboro;
 }
 .posts{
