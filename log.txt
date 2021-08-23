@@ -1,1 +1,10 @@
-<div class='post'><p class='postname'><xmp>投稿者:Owner</xmp></p><p class='postbody'><xmp>Telkを開始しましょう！</xmp></p></div>
+<div class='post'><p class='postname'><xmp>投稿者:Owner</xmp></p><p class='postbody'><xmp>Telkを開始しましょう！</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:管理人</xmp></p><p class='postbody'><xmp>PHPサーバーのメンテナンスが終了しました（PHPの挙動を確かめるものです）
+特に問題は見つかりませんでした。これからもTelkをよろしくお願いします。
+ーーーーー
+Telkのアップデートの方針も決まりそうです。
+１，PHPの強化
+２，Telk IDなるものを追加
+３，IDでユーザーを管理
+このような感じです。
+</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:管理人</xmp></p><p class='postbody'><xmp>Telk上での検閲されたコメントを全てアーカイブしました。より良いコミュニティにするために
+「利用規約」を確認してください。</xmp></p></div>
