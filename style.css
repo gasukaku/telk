@@ -16,7 +16,7 @@
 body{
   text-align:center;
   overflow:hidden;
-  background-color:whitesmoke;
+  background-color:white;
 }
 form{
   width:100%;
@@ -52,23 +52,25 @@ input[type="submit"]:hover,a:hover{
   margin:0 auto;
   text-align:center;
   width:50%;
-  height:55vh;
+  height:50vh;
   overflow:hidden;
   overflow-y:scroll;
-  background-color:white;
+  background-color:gainsboro;
 }
 .post{
   display:inline-block;
   text-align:left;
   padding-left:1%;
   width:90%;
-  border:1px solid gray;
+  border:none;
+  border-radius:10px;
   overflow-x:auto;
   margin:1%;
+  background-color:white;
 }
 .postname{}
 .postbody{
-  border-top:1px solid gray;
+  border-top:1px solid gainsboro;
 }
 #cont{
   text-align:left;
