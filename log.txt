@@ -1,1 +1,1 @@
-<div class='post'><p class='postname'><xmp>投稿者:Bell</xmp></p><p class='postbody'><xmp>Hello</xmp></p></div>
+<div class='post'><p class='postname'><xmp>投稿者:Bell</xmp></p><p class='postbody'><xmp>Hello</xmp></p></div><div class='post'><p class='postname'><xmp>投稿者:SUM野郎</xmp></p><p class='postbody'><xmp>こんちゃなにここ</xmp></p></div>
