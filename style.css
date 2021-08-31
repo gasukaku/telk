@@ -1,21 +1,8 @@
 *{
   font-family:sans-serif;
-  font-size:auto;
-}
-*::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
-}
-*::-webkit-scrollbar-thumb {
-  background:rgba(252,176,69,1);
-  border-radius: 3px;
-}
-*::-webkit-scrollbar-track {
-  background: whitesmoke;
 }
 body{
   text-align:center;
-  overflow:hidden;
   background-color:white;
 }
 form{
@@ -52,10 +39,7 @@ input[type="submit"]:hover,a:hover{
   margin:0 auto;
   text-align:center;
   width:50%;
-  height:50vh;
-  overflow:hidden;
-  overflow-y:scroll;
-  background-color:gainsboro;
+  background-color:whitesmoke;
 }
 .post{
   display:inline-block;
@@ -67,14 +51,4 @@ input[type="submit"]:hover,a:hover{
   overflow-x:auto;
   margin:1%;
   background-color:white;
-}
-.postname{}
-.postbody{
-  border-top:1px solid gainsboro;
-}
-#cont{
-  text-align:left;
-  padding:3%;
-  background-color:white;
-  padding-right:30%;
 }
