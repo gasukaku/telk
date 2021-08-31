@@ -3,7 +3,7 @@
 }
 body{
   text-align:center;
-  background-color:white;
+  background-color:whitesmoke;
 }
 form{
   width:100%;
@@ -13,18 +13,24 @@ textarea{
   resize:none;
   width:50%;
   height:20vh;
-  border:1px solid gray;
+  border:1px solid gainsboro;
   outline:none;
+}
+textarea:focus{
+  border:1px solid gray;
 }
 input[type="text"]{
   resize:none;
   width:50%;
-  border:1px solid gray;
+  border:1px solid gainsboro;
   outline:none;
+}
+input[type="text"]:focus{
+  border:1px solid gray;
 }
 input[type="submit"],a{
   resize:none;
-  border:1px solid gray;
+  border:1px solid gainsboro;
   background-color:whitesmoke;
   outline:none;
   text-decoration:none;
@@ -34,19 +40,21 @@ input[type="submit"],a{
 }
 input[type="submit"]:hover,a:hover{
   background-color:gainsboro;
+  border:1px solid gray;
 }
 .posts{
   margin:0 auto;
   text-align:center;
   width:50%;
-  background-color:whitesmoke;
+  max-height:200vh;
+  overflow:auto;
 }
 .post{
   display:inline-block;
   text-align:left;
   padding-left:1%;
   width:90%;
-  border:none;
+  border:1px solid gainsboro;
   border-radius:10px;
   overflow-x:auto;
   margin:1%;

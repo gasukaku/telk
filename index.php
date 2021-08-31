@@ -39,8 +39,7 @@ function writeData(){
     $personal_name = $_POST['personal_name'];
     $contents = $_POST['contents'];
 
-    $data = $data."<div class='post'><xmp>投稿者:".$personal_name."</xmp>";
-    $data = $data."<xmp>".$contents."</xmp></div>";
+    $data = "<div class='post'><xmp>投稿者:".$personal_name."</xmp>"."<xmp>".$contents."</xmp></div>".$data;
 
     $log_file = 'log.txt';
 
