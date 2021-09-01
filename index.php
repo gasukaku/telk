@@ -65,7 +65,7 @@ function writeData(){
     <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
       <input type="text" spellcheck="false" name="personal_name" placeholder="ニックネームを入力" required><br><br>
       <textarea name="contents" wrap="off" spellcheck="false" placeholder="投稿内容を入力" required></textarea><br><br>
-      <input type="submit" value="利用規約に同意して投稿する"> <a href="https://telk.glitch.me/guideline.php">利用規約の確認</a>
+      <input type="submit" value="利用規約に同意して投稿する"> <a href="https://telk.glitch.me/riyokiyaku.php">利用規約の確認</a>
     </form>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
