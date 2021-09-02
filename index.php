@@ -24,8 +24,7 @@
       本サイトのバックエンド・フロントエンド開発者。<br>
       他にもWebアプリを沢山開発している。<br>
       なお、Telkの運営も兼任。<br>
-      他開発アプリに<br>
-      <a href="" class="djunk text" style=""></a><br>
+      他開発アプリに<a href="https://hackey.glitch.me/" class="djunk text" style="text-decoration:none; color:blue; cursor:pointer;">Hackey</a>等がある。<br>
       <br>
       <br>
       <br>
