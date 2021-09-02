@@ -17,7 +17,23 @@
     <p class="djunk section">
       ルームはいかなる場合でもパブリックになります。
     </p>
-    
+    <br><br>
+    <p class="djunk section text">運営チーム</p>
+    <p class="djunk section">@まろさん</p>
+    <p class="djunk text">
+      本サイトのバックエンド・フロントエンド開発者。<br>
+      他にもWebアプリを沢山開発している。<br>
+      なお、Telkの運営も兼任。<br>
+      他開発アプリに<br>
+      <a href="" class="djunk text" style=""></a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </p>
+    <p class="djunk section"></p>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
 </html>
