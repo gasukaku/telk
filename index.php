@@ -17,6 +17,7 @@
     <p class="djunk section">
       ルームはいかなる場合でもパブリックになります。
     </p>
+    
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
 </html>
