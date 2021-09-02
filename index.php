@@ -10,10 +10,13 @@
       メインルームに移動する
     </a>
     <br><br>
-    <input type="text" id="RoomName">
+    <input type="text" id="RoomName" style="outline:none; border:1px solid gray; padding:1%;">
     <a id="href" class="djunk text" style="text-decoration:none; color:blue; cursor:pointer;" onclick="makeRoom();">
       ルーム移動・作成
     </a>
+    <p class="djunk section">
+      ルームはいかなる場合でもパブリックになります。
+    </p>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
 </html>
