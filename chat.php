@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 readData();
 
 function readData(){
-    $log_file = 'logs/'.$_GET["room"].'.txt';
+    $log_file = 'chatlog/'.$_GET["room"].'.txt';
 
     $fp = fopen($log_file, 'rb');
 
@@ -44,7 +44,7 @@ function writeData(){
 
     $data = "<div class='post'><xmp>投稿者:".$personal_name."</xmp>"."<xmp>".$contents."</xmp></div>".$data;
 
-    $log_file = 'logs/'.$_GET["room"].'.txt';
+    $log_file = 'chatlog/'.$_GET["room"].'.txt';
 
     $fp = fopen($log_file, 'ab');
 
