@@ -7,7 +7,12 @@
   <body style="padding:5%; padding-right:50%;">
     <p class="djunk section title">Welcome to Telk</p>
     <a class="djunk text" href="https://telk.glitch.me/chat.php" style="text-decoration:none; color:blue;">
-      Telk - 掲示板に移動する
+      メインルームに移動する
+    </a>
+    <br><br>
+    <input type="text" id="RoomName">
+    <a id="href" class="djunk text" style="text-decoration:none; color:blue; cursor:pointer;" onclick="makeRoom();">
+      ルーム移動・作成
     </a>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>

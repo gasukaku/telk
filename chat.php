@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
   </head>
   <body>
+    <?php
+  echo "ルーム：".$_GET["room"]."\n";
+    ?>
     <div class="posts">
 <?php
 
@@ -15,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 readData();
 
 function readData(){
-    $log_file = 'log.txt';
+    $log_file = 'logs/'.$_GET["room"].'.txt';
 
     $fp = fopen($log_file, 'rb');
 
@@ -41,7 +44,7 @@ function writeData(){
 
     $data = "<div class='post'><xmp>投稿者:".$personal_name."</xmp>"."<xmp>".$contents."</xmp></div>".$data;
 
-    $log_file = 'log.txt';
+    $log_file = 'logs/'.$_GET["room"].'.txt';
 
     $fp = fopen($log_file, 'ab');
 
