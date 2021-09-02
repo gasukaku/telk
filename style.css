@@ -61,3 +61,7 @@ input[type="submit"]:hover,a:hover{
   margin:1%;
   background-color:white;
 }
+.date{
+  font-size:70%;
+  color:gray;
+}

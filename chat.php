@@ -42,7 +42,7 @@ function writeData(){
     $personal_name = $_POST['personal_name'];
     $contents = $_POST['contents'];
 
-    $data = "<div class='post'><xmp>投稿者:".$personal_name."</xmp>"."<xmp>".$contents."</xmp></div>".$data;
+    $data = "<div class='post'><xmp>投稿者:".$personal_name."</xmp>"."<xmp>".$contents."</xmp><p class='date'>".date("Y/m/d H:i:s")."</p></div>".$data;
 
     $log_file = 'chatlog/'.$_GET["room"].'.txt';
 
