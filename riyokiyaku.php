@@ -28,6 +28,12 @@
     <p class="djunk text">
       Telk及び系列のアプリケーションは、予告なく閉鎖される場合があります。
     </p>
+    <p class="djunk section">頭の悪い人について</p>
+    <p class="djunk text">
+      荒らしやら、変なコメントをした人は、大体、責任も考えられない頭の悪い人です。
+      しかもその人たちは、構ってほしくてやってるという非常に無責任な人たちです。
+      無視していただいて結構です。
+    </p>
     <p class="djunk section text">利用規約は以上です。</p>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
