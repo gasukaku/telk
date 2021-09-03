@@ -18,19 +18,26 @@
       ルームはいかなる場合でもパブリックになります。
     </p>
     <br><br>
+    <p class="djunk section text">Telkの使い方</p>
+    <p class="djunk section">雑談やチャット</p>
+    <p class="djunk text">
+      Telkは雑談、チャットに使ってもらって構いません。ですが、ルームは公開されていますので、せいぜい個人情報などはばれないようにしたほうが身のためです。
+    </p>
+    <p class="djunk section">自身の公式ルーム作成</p>
+    <p class="djunk text">
+      SNSをやってる人は、「公式ルーム」とか言ってリンク張るのもいいでしょう。
+      ブログとかサイトをHTMLとかで作ってるちょっと教養がある人は、「iframe」とかで埋め込んでもらっても構いません。
+    </p>
+    <p class="djunk section">フィードバックとかのフォーム</p>
+    <p class="djunk text">
+      Telkは雑談、チャットに使ってもらって構いません。ですが、ルームは公開されていますので、せいぜい個人情報などはばれないようにしたほうが身のためです。
+    </p>
     <p class="djunk section text">運営チーム</p>
     <p class="djunk section">@まろさん</p>
     <p class="djunk text">
       本サイトのバックエンド・フロントエンド開発者。<br>
       他にもWebアプリを沢山開発している。<br>
       なお、Telkの運営も兼任。<br>
-      他開発アプリに<a href="https://hackey.glitch.me/" class="djunk text" style="text-decoration:none; color:blue; cursor:pointer;">Hackey</a>等がある。<br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
     </p>
     <p class="djunk section"></p>
     <a href="https://www.free-counter.jp/"><img src="https://www.f-counter.net/j/46/1630584352/" alt="アクセスカウンター"></a>
