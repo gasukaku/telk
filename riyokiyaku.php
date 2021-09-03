@@ -28,6 +28,10 @@
     <p class="djunk text">
       Telk及び系列のアプリケーションは、予告なく閉鎖される場合があります。
     </p>
+    <p class="djunk section">スレッドについて</p>
+    <p class="djunk text">
+      気まぐれでつくった新機能です。なので、もしスレを作っても、気まぐれで消すかもしれません。（ガチで）
+    </p>
     <p class="djunk section text">利用規約は以上です。</p>
   </body>
   <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>

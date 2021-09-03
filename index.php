@@ -10,6 +10,7 @@
       メインルームに移動する
     </a>
     <br><br>
+    <a href="https://telk.glitch.me/riyokiyaku.php"><p class="djunk section text">Telk利用規約</p><br></a>
     <input type="text" id="RoomName" style="outline:none; border:1px solid gray; padding:1%;">
     <a id="href" class="djunk text" style="text-decoration:none; color:blue; cursor:pointer;" onclick="makeRoom();">
       ルーム移動・作成
@@ -30,8 +31,9 @@
     </p>
     <p class="djunk section">フィードバックとかのフォーム</p>
     <p class="djunk text">
-      Telkは雑談、チャットに使ってもらって構いません。ですが、ルームは公開されていますので、せいぜい個人情報などはばれないようにしたほうが身のためです。
-    </p>
+      Googleフォームとかアカウントとかめんどい人は最悪ルーム作ってフォームにしてもいいんですよ。気まぐれで消すかもですけど。<br>
+      ※利用規約参照<br>
+    </p><br><br>
     <p class="djunk section text">運営チーム</p>
     <p class="djunk section">@まろさん</p>
     <p class="djunk text">
@@ -39,6 +41,7 @@
       他にもWebアプリを沢山開発している。<br>
       なお、Telkの運営も兼任。<br>
     </p>
+    <br><br><br>
     <p class="djunk section"></p>
     <a href="https://www.free-counter.jp/"><img src="https://www.f-counter.net/j/46/1630584352/" alt="アクセスカウンター"></a>
 
