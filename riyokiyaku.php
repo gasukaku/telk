@@ -22,7 +22,8 @@
     </p>
     <p class="djunk section">ID・アカウントの投稿について</p>
     <p class="djunk text">
-      一切許可していません。そのような投稿を見かけた場合は、無視してください。（運営がちょくちょく削除します）
+      現在許可しているアカウントは、
+      <br>
     </p>
     <p class="djunk section">Telkについて</p>
     <p class="djunk text">
