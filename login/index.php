@@ -11,8 +11,9 @@
     <h1>Login</h1>
     <input type="text" class="bot" value="" placeholder="Username"><br>
     <input type="text" class="bot" value="" placeholder="Password"><br>
-    <input type="button" class="boty" value="Login">
-    <?php }elseif($_GET["score"] == "success"){ ?> 
+    <a href="?score=success"><input type="button" class="boty" value="Login"></a>
+    <?php }elseif($_GET["score"] == "success"){ ?>
+    <h1>Login successed.</h1>
     <?php } ?>
   </body>
 </html>

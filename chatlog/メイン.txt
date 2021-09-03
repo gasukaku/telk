@@ -1,3 +1,5 @@
 <div class='post'><xmp>@Telk運営</xmp><xmp>メインルームでは、主にTelkのルームや、使い方について発信していきます！
 ※メインルームには、投稿をひかえてください。投稿した場合、
-　速やかに削除をいたします。</xmp><p class='date'>2021/09/02 18:02:38</p></div><div class='post'><xmp>@169()</xmp><xmp>[削除済みコメント]</xmp><p class='date'>2021/09/02 22:40:39</p></div><div class='post'><xmp>@Test</xmp><xmp><?php echo "Hey" ?></xmp><p class='date'>2021/09/03 14:20:15</p></div>
+　速やかに削除をいたします。</xmp><p class='date'>2021/09/02 18:02:38</p></div><div class='post'><xmp>@169()</xmp><xmp>[削除済みコメント]</xmp><p class='date'>2021/09/02 22:40:39</p></div><div class='post'><xmp>@Test</xmp><xmp><?php echo "Hey" ?></xmp><p class='date'>2021/09/03 14:20:15</p></div><div class='post'><xmp>@Test</xmp><xmp><?php
+echo $_GET["room"];
+?></xmp><p class='date'>2021/09/03 17:45:30</p></div>
