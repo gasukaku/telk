@@ -8,10 +8,14 @@
 .logo{
   font-size:200%;
 }
+li{
+  list-style:none;
+  margin-bottom:2%;
+}
 body{
   text-align:left;
   padding-left:5%;
-  background-image:url("https://cdn.glitch.com/24789882-31f7-4bbf-b059-4d696eea7848%2Flogo_telk.svg?v=1630739360377");
+  background-image:url("https://cdn.glitch.com/24789882-31f7-4bbf-b059-4d696eea7848%2Flogo_telk.svg?v=1630739498650");
   background-size:cover;
 }
 /*Post View Settings*/
