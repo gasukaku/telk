@@ -6,10 +6,10 @@
   </head>
   <body>
     <h1 class="logo">利用規約</h1>
-    <p>These </p>
+    <p>この利用規約は、すべてのTelkユーザーに適用されます。</p>
     <h1 class="logo">
-      It's all your fault.
+      全部自己責任
     </h1>
-    <p>thats all.</p>
+    <p>以上</p>
   </body>
 </html>
