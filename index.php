@@ -1,10 +1,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Telk</title>
+    <title>匿名掲示板Telk</title>
     <link rel="stylesheet" href="https://telk.glitch.me/style.css">
   </head>
   <body>
+    <p class="logo">
+      匿名掲示板Telk
+    </p>
 <xmp>
 超気まぐれで作ったTelkっていう掲示板です。
 閲覧数上がってきたらここはリメイクします。
