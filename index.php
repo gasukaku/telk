@@ -12,8 +12,11 @@
     <input id="RoomName" class="sendName" type="text" placeholder="ボードネーム"><a onclick="makeRoom()" id="href">ボード移動・作成</a><xmp></xmp><br>
     <?php
     $result = array_filter(glob("chatlog/*.txt"));
+    $resultall;
     foreach($result as $rs){
-      echo substr($rs,8,strlen($rs))."<br>";
+      $resultall = substr($rs,8,strlen($rs));
+      $resultall = "<a href='chat.php?room='".substr($resultall,0,strlen($resultall)-4)."</a>";
+      echo $resultall."<br>";
     }
     ?>
     <script type="text/javascript" src="script.js"></script>
