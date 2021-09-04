@@ -68,5 +68,6 @@ function writeData(){
       <textarea class="sendBody" name="contents" wrap="off" spellcheck="false" placeholder="投稿内容" required></textarea><br>
       <input type="submit" class="sendButton" value="利用規約に同意して投稿する"> <a href="https://telk.glitch.me/guide.php">利用規約の確認</a>
     </form>
+    <a class="a plus" href="https://telk.glitch.me/main/">メインページへ戻る</a>
   </body>
 </html>

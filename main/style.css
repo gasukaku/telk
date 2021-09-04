@@ -66,6 +66,9 @@ body{
   font-size:80%;
   color:gray;
 }
+.a.plus{
+  color:crimson;
+}
 .a{
   border:none;
   background-color:transparent;
@@ -78,4 +81,7 @@ body{
   border:none;
   background-color:transparent;
   color:springgreen;
+}
+.a.plus::before{
+  content:"<";
 }
