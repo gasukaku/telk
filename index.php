@@ -14,13 +14,14 @@
       body{
         text-align:left;
         padding-left:5%;
-        background-image:url("https://cdn.glitch.com/24789882-31f7-4bbf-b059-4d696eea7848%2Flogo_telk.svg?v=1630739498650");
+        background-image:url("https://cdn.glitch.com/24789882-31f7-4bbf-b059-4d696eea7848%2Flogo_welcome.svg?v=1630748802332");
         background-size:cover;
       }
       a{
         border:none;
         background-color:transparent;
         color:blue;
+        text-decoration:none;
         font-size:150%;
         font-weight:900;
         transition:100ms;
@@ -30,9 +31,13 @@
         background-color:transparent;
         color:springgreen;
       }
+      li{
+        list-style:none;
+      }
     </style>
   </head>
   <body>
     <h1 class="logo">Telkへようこそ</h1>
+    <li><a href="https://telk.glitch.me/main/">Telkボード</a></li>
   </body>
 </html>

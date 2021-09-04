@@ -1,11 +1,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Telkユーザーボード</title>
+    <title>Telkボード</title>
     <link rel="stylesheet" href="https://telk.glitch.me/main/style.css">
   </head>
   <body>
-    <h1 class="logo">Telkユーザーボード</h1>
+    <h1 class="logo">Telkボード</h1>
     <a href="guide.php">利用規約</a>
     <a href="chat.php?room=メイン">メインボード</a>
     <a href="chat.php?room=フィードバック">フィードバックボード</a>
