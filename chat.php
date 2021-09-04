@@ -8,7 +8,7 @@
     <?php
   echo "ルーム：".$_GET["room"]."\n";
     ?>
-    <div class="posts">
+    <div class="postView">
 <?php
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
