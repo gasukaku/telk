@@ -2,66 +2,8 @@
 *{
   font-family:"Noto Sans JP";
 }
-body{
-  text-align:center;
-  background-color:whitesmoke;
-}
-form{
-  width:100%;
-  margin-top:5%;
-}
-textarea{
-  resize:none;
-  width:50%;
-  height:20vh;
-  border:1px solid gainsboro;
+.sendName{
+  border:2px solid gainsboro;
+  border-radius:3px;
   outline:none;
-}
-textarea:focus{
-  border:1px solid gray;
-}
-input[type="text"]{
-  resize:none;
-  width:50%;
-  border:1px solid gainsboro;
-  outline:none;
-}
-input[type="text"]:focus{
-  border:1px solid gray;
-}
-input[type="submit"],a{
-  resize:none;
-  border:1px solid gainsboro;
-  background-color:whitesmoke;
-  outline:none;
-  text-decoration:none;
-  color:black;
-  font-size:100%;
-  padding:0.2%;
-}
-input[type="submit"]:hover,a:hover{
-  background-color:gainsboro;
-  border:1px solid gray;
-}
-.posts{
-  margin:0 auto;
-  text-align:center;
-  width:50%;
-  max-height:200vh;
-  overflow:auto;
-}
-.post{
-  display:inline-block;
-  text-align:left;
-  padding-left:1%;
-  width:90%;
-  border:1px solid gainsboro;
-  border-radius:10px;
-  overflow-x:auto;
-  margin:1%;
-  background-color:white;
-}
-.date{
-  font-size:70%;
-  color:gray;
 }
