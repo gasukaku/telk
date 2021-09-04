@@ -29,6 +29,7 @@ body{
   width:80%;
   overflow-x:auto;
   padding:2%;
+  background-color:white;
 }
 /*Form Settings*/
 .sendName,.sendBody{
