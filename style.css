@@ -1,9 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 *{
   font-family:"Noto Sans JP";
+  font-size:100%;
 }
-.sendName{
+body{
+  text-align:center;
+}
+form{
+  text-align:center;
+}
+.sendName,.sendBody{
+  margin:1%;
+  padding:0.5%;
   border:2px solid gainsboro;
   border-radius:3px;
   outline:none;
+  transition:500ms;
+  width:30rem;
+}
+.sendName:focus,.sendBody:focus{
+  border-color:royalblue;
+  box-shadow:0px 0px 5px royalblue;
+}
+.sendBody{
+  height:10rem;
+  resize:none;
+}
+.sendButton,a{
+  margin:1%;
+  padding:0.5%;
+  border-radius:3px;
+  border:2px solid gainsboro;
+  background-color:whitesmoke; 
+  transition:500ms;
+  text-decoration:none;
+  color:black;
+}
+.sendButton:hover,a:hover{
+  background-color:gainsboro;
 }
