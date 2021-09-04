@@ -12,6 +12,12 @@ li{
   list-style:none;
   margin-bottom:2%;
 }
+ul{
+  display:none;
+}
+ul:focus+li{
+  display:block;
+}
 body{
   text-align:left;
   padding-left:5%;
