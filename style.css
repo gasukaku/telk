@@ -12,12 +12,6 @@ li{
   list-style:none;
   margin-bottom:2%;
 }
-ul{
-  display:none;
-}
-ul:focus+li{
-  display:block;
-}
 body{
   text-align:left;
   padding-left:5%;
@@ -71,4 +65,15 @@ body{
 .date{
   font-size:80%;
   color:gray;
+}
+li > a{
+  border:none;
+  background-color:transparent;
+  color:blue;
+  transition:100ms;
+}
+li > a:hover{
+  border:none;
+  background-color:transparent;
+  color:springgreen;
 }
