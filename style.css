@@ -5,28 +5,25 @@
   font-size:100%;
 }
 body{
-  text-align:center;
+  text-align:left;
+  padding-left:5%;
 }
 /*Post View Settings*/
 .postView{
   max-height:100%;
   width:50%;
-  display:block;
+  margin-top:5%;
 }
 .post{
   border-radius:20px;
   border:2px solid gainsboro;
   width:80%;
   overflow-x:auto;
-  text-align:left;
   padding:2%;
 }
 /*Form Settings*/
-form{
-  text-align:center;
-}
 .sendName,.sendBody{
-  margin:1%;
+  margin:2% 0;
   padding:0.5%;
   border:2px solid gainsboro;
   border-radius:3px;
