@@ -1,25 +1,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Telkユーザーボード</title>
-    <link rel="stylesheet" href="https://telk.glitch.me/style.css">
+    <title>Telkへようこそ</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+      *{
+        font-family:"Noto Sans JP";
+        font-size:100%;
+      }
+      .logo{
+        font-size:200%;
+      }
+      body{
+        text-align:left;
+        padding-left:5%;
+        background-image:url("https://cdn.glitch.com/24789882-31f7-4bbf-b059-4d696eea7848%2Flogo_telk.svg?v=1630739498650");
+        background-size:cover;
+      }
+      a{
+        border:none;
+        background-color:transparent;
+        color:blue;
+        font-size:150%;
+        font-weight:900;
+        transition:100ms;
+      }
+      a:hover{
+        border:none;
+        background-color:transparent;
+        color:springgreen;
+      }
+    </style>
   </head>
   <body>
-    <h1 class="logo">Telkユーザーボード</h1>
-    <a href="guide.php">利用規約</a>
-    <a href="chat.php?room=メイン">メインボード</a>
-    <a href="chat.php?room=フィードバック">フィードバックボード</a>
-    <input id="RoomName" class="sendName" type="text" placeholder="ボードネーム"><a onclick="makeRoom()" id="href">ボード移動・作成</a><xmp></xmp><br>
-    <h1 class="logo">ボード一覧</h1>
-    <?php
-    $result = array_filter(glob("chatlog/*.txt"));
-    $resultall;
-    foreach($result as $rs){
-      $resultall = substr($rs,8,strlen($rs));
-      $resultall = substr($resultall,0,strlen($resultall)-4);
-      echo '<a class="a" href="chat.php?room='.$resultall.'">'.$resultall."</a><br>";
-    }
-    ?>
-    <script type="text/javascript" src="script.js"></script>
+    <h1 class="logo">Telkへようこそ</h1>
   </body>
 </html>

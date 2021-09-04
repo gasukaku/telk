@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title><?php print($_GET["room"]); ?></title>
-    <link rel="stylesheet" href="https://telk.glitch.me/style.css">
+    <link rel="stylesheet" href="https://telk.glitch.me/main/style.css">
   </head>
   <body>
     <h1 class="logo"><?php echo $_GET["room"]."\n"; ?></h1>
@@ -69,5 +69,4 @@ function writeData(){
       <input type="submit" class="sendButton" value="利用規約に同意して投稿する"> <a href="https://telk.glitch.me/guide.php">利用規約の確認</a>
     </form>
   </body>
-  <script type="text/javascript" src="https://telk.glitch.me/script.js"></script>
 </html>
