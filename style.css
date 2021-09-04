@@ -55,9 +55,6 @@ body{
 .sendButton:hover,a:hover{
   background-color:gainsboro;
 }
-bt{
-  font-size:80%;
-}
 .date{
   font-size:80%;
   color:gray;
