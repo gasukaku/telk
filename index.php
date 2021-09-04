@@ -10,6 +10,10 @@
     <a href="chat.php?room=メイン">メインボード</a>
     <a href="chat.php?room=フィードバック">フィードバックボード</a>
     <input id="RoomName" class="sendName" type="text" placeholder="ボードネーム"><a onclick="makeRoom()" id="href">ボード移動・作成</a><xmp></xmp><br>
+    <?php
+    $result = array_filter(glob("chatlog/*.txt"),"is_file");
+    echo $result[1];
+    ?>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
