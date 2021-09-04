@@ -10,13 +10,14 @@
     <a href="chat.php?room=メイン">メインボード</a>
     <a href="chat.php?room=フィードバック">フィードバックボード</a>
     <input id="RoomName" class="sendName" type="text" placeholder="ボードネーム"><a onclick="makeRoom()" id="href">ボード移動・作成</a><xmp></xmp><br>
+    <h1 class="logo">ボード一覧</h1>
     <?php
     $result = array_filter(glob("chatlog/*.txt"));
     $resultall;
     foreach($result as $rs){
       $resultall = substr($rs,8,strlen($rs));
-      $resultall = "<a href='chat.php?room='".substr($resultall,0,strlen($resultall)-4)."</a>";
-      echo $resultall."<br>";
+      $resultall = substr($resultall,0,strlen($resultall)-4);
+      echo '<a class="a" href="chat.php?room='.$resultall.'">'.$resultall."</a><br>";
     }
     ?>
     <script type="text/javascript" src="script.js"></script>
