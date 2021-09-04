@@ -11,8 +11,10 @@
     <a href="chat.php?room=フィードバック">フィードバックボード</a>
     <input id="RoomName" class="sendName" type="text" placeholder="ボードネーム"><a onclick="makeRoom()" id="href">ボード移動・作成</a><xmp></xmp><br>
     <?php
-    $result = array_filter(glob("chatlog/*.txt"),"is_file");
-    echo $result[1];
+    $result = array_filter(glob("chatlog/*.txt"));
+    foreach($result as $rs){
+      echo substr($rs,8,strlen($rs))."<br>";
+    }
     ?>
     <script type="text/javascript" src="script.js"></script>
   </body>
