@@ -12,8 +12,10 @@
     foreach($result as $rs){
       $resultall = substr($rs,8,strlen($rs));
       $resultall = substr($resultall,0,strlen($resultall)-4);
-      if(strpos($resultall,$_GET["text"]) !== false){
-        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'"><xmp>'.$resultall."</xmp></a><br>";    
+      if($_GET["text"] == ""){
+        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'"><xmp>'.$resultall."</xmp></a>";
+      }elseif(strpos($resultall,$_GET["text"]) !== false){
+        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'"><xmp>'.$resultall."</xmp></a>";    
       }
     }
     ?>

@@ -6,9 +6,9 @@
   </head>
   <body>
     <h1 class="logo">Telkボード</h1>
-    <a href="guide.php">利用規約</a>
-    <a href="chat.php?room=メイン">メインボード</a>
-    <a href="chat.php?room=フィードバック">フィードバックボード</a><br>
+    <a href="https://telk.glitch.me/main/guide.php">利用規約</a>
+    <a href="https://telk.glitch.me/main/chat.php?room=メイン">メインボード</a>
+    <a href="https://telk.glitch.me/main/chat.php?room=フィードバック">フィードバックボード</a><br>
     <input id="RoomName" class="sendName" type="text" placeholder="ボードネーム"><a onclick="makeRoom()" id="href00">ボード移動・作成</a><br>
     <input id="SearchText" class="sendName" type="text" placeholder="ボドネ検索"><a onclick="searchRoom()" id="href01">ボード検索</a><br>
     <a href="https://www.free-counter.jp/" class="a"><img src="https://www.f-counter.net/j/46/1630750982/" alt="アクセスカウンター"></a>
