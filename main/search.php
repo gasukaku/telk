@@ -15,7 +15,7 @@
       if($_GET["text"] == ""){
         echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'">'.$resultall."</a><br>";
       }elseif(strpos($resultall,$_GET["text"]) !== false){
-        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'">'.$resultall."</a><br>";
+        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'"><xmp>'.$resultall."</xmp></a><br>";
       }
     }
     ?>

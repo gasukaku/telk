@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://telk.glitch.me/main/style.css">
   </head>
   <body>
-    <h1 class="logo"><?php echo $_GET["room"]."\n"; ?></h1>
+    <h1 class="logo"><xmp><?php echo $_GET["room"]."\n"; ?></xmp></h1>
     <div class="postView">
 <?php
 
