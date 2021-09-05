@@ -12,12 +12,19 @@
     foreach($result as $rs){
       $resultall = substr($rs,8,strlen($rs));
       $resultall = substr($resultall,0,strlen($resultall)-4);
-      if($_GET["text"] == ""){
-        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'">'.$resultall."</a><br>";
-      }elseif(strpos($resultall,$_GET["text"]) !== false){
-        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'"><xmp>'.$resultall."</xmp></a><br>";
+      if(strpos($resultall,$_GET["text"]) !== false){
+        echo '<a class="a" href="https://telk.glitch.me/main/chat.php?room='.$resultall.'"><xmp>'.$resultall."</xmp></a><br>";    
+        $fp = fopen("chatlog/".$resultall.".txt", "r");
+        $flong = [];
+        while($line = fgets($fp)) {
+          array_push($flong,$line);
+        }
+        
+        fclose($fp);
       }
     }
+    ?>
+        <?php
     ?>
     <a class="a plus" href="https://telk.glitch.me/main/">メインページへ戻る</a>
     <script type="text/javascript" src="https://telk.glitch.me/main/script.js"></script>
